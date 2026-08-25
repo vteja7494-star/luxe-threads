@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LUXE THREADS | Style That Speaks</title>
+<style>
+:root{--p:#e83f72;--soft:#fff4f7;--ink:#171717}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:var(--ink)}
+.top{background:#151515;color:#fff;padding:9px 5%;display:flex;justify-content:space-between;font-size:12px}
+nav{height:72px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;z-index:5}
+.logo{font-size:24px;font-weight:800;color:var(--p)}.logo small{display:block;color:#b78a3a;font-size:9px;letter-spacing:2px}
+.links{display:flex;gap:24px;font-size:14px;font-weight:700}.links a:hover{color:var(--p)}
+.btn{display:inline-block;background:var(--p);color:#fff;padding:12px 18px;border-radius:9px;font-weight:700}
+.hero{background:linear-gradient(90deg,#fff1f5,#fff,#f6e8e1);padding:35px 5%}
+.heroin{max-width:1150px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}
+.hero h1{font:56px/1 Georgia,serif;margin:10px 0}.hero h1 span{color:var(--p)}.ey{color:var(--p);font-weight:800;letter-spacing:2px}.hero p{color:#666;line-height:1.6}
+.hero img{width:100%;max-height:360px;object-fit:cover;border-radius:18px}
+.sec{max-width:1150px;margin:auto;padding:42px 5%}.title{text-align:center;font:34px Georgia,serif}.sub{text-align:center;color:#777}
+.cats,.features,.products{display:grid;gap:14px}.cats{grid-template-columns:repeat(6,1fr)}.cat{background:var(--soft);padding:20px 8px;text-align:center;border-radius:14px;font-weight:700}.cat b{display:block;font-size:26px;margin-bottom:7px}
+.features{grid-template-columns:repeat(4,1fr);border:1px solid #eee;border-radius:14px}.feature{text-align:center;padding:18px;border-right:1px solid #eee}.feature:last-child{border:0}.feature span{display:block;color:#777;font-size:12px;margin-top:5px}
+.products{grid-template-columns:repeat(5,1fr)}.card{border:1px solid #eee;border-radius:14px;overflow:hidden;box-shadow:0 5px 20px #0000000d}.pic{height:230px;background:linear-gradient(145deg,#fbe2ea,#ead8d0);display:grid;place-items:center;font-size:70px}.body{padding:12px}.tag{color:#d82f62;background:#fce1e9;border-radius:20px;padding:5px 8px;font-size:10px;font-weight:800}.body h3{font-size:15px;margin:10px 0 6px}.price{color:var(--p);font-weight:800;font-size:18px}.sizes{font-size:11px;color:#777;margin:8px 0}.buy,.wa{display:block;text-align:center;padding:10px;border-radius:8px;font-size:12px;font-weight:700}.buy{background:var(--p);color:#fff}.wa{border:1px solid var(--p);color:var(--p);margin-top:7px}
+.offer{margin:5px 5% 40px;padding:22px;border:1px solid #f3c4d1;background:var(--soft);border-radius:16px;display:flex;justify-content:space-between;align-items:center}.offer h2{color:var(--p);margin:0 0 5px}.offer p{margin:0;color:#555}
+footer{background:#151515;color:#ddd;padding:38px 5%}.foot{max-width:1150px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:25px}.foot h3{color:#fff}.foot p,.foot a{color:#aaa;font-size:13px;line-height:1.8}.copy{text-align:center;border-top:1px solid #333;padding-top:18px;margin-top:25px;color:#777;font-size:12px}
+@media(max-width:900px){.links{display:none}.heroin{grid-template-columns:1fr}.cats{grid-template-columns:repeat(3,1fr)}.products{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr)}.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.top{font-size:9px}.hero h1{font-size:40px}.cats{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:1fr}.features{grid-template-columns:1fr}.feature{border-right:0;border-bottom:1px solid #eee}.offer{display:block}.offer .btn{margin-top:12px}.foot{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="top"><span>🚚 Free Shipping Above ₹999</span><span>✨ New Styles Every Week</span><span>📍 Shipping Across India</span></div>
+<nav><a class="logo" href="#">LUXE THREADS<small>STYLE THAT SPEAKS</small></a><div class="links"><a href="#home">Home</a><a href="#new">New Arrivals</a><a href="#trend">Trending</a><a href="#cat">Dresses</a><a href="#contact">Contact</a></div><a class="btn" href="#trend">Shop Now</a></nav>
+
+<section class="hero" id="home"><div class="heroin">
+<div><div class="ey">NEW COLLECTION</div><h1>FASHION THAT <span>DEFINES YOU</span></h1><p>Trendy. Elegant. Affordable. Find your perfect look from our latest collection.</p><a class="btn" href="#trend">🛍 Shop Now</a></div>
+<img src="assets/fashion-hero.png" alt="LUXE THREADS fashion collection"></div></section>
+
+<section class="sec" id="cat"><h2 class="title">Shop By Category</h2><div class="cats">
+<div class="cat"><b>✨</b>New Arrivals</div><div class="cat"><b>👗</b>Kurtis</div><div class="cat"><b>🌸</b>Anarkali</div><div class="cat"><b>💃</b>Lehengas</div><div class="cat"><b>🥻</b>Sarees</div><div class="cat"><b>🎁</b>Offers</div></div></section>
+
+<section class="sec"><div class="features"><div class="feature"><b>🚚 Free Shipping</b><span>Orders over ₹999</span></div><div class="feature"><b>↩️ Easy Returns</b><span>7 days policy</span></div><div class="feature"><b>💳 Secure Payment</b><span>100% secure</span></div><div class="feature"><b>💬 Support</b><span>Here to help</span></div></div></section>
+
+<section class="sec" id="trend"><h2 class="title">Trending Now 🔥</h2><p class="sub">Demo products — replace with the real shop photos and prices.</p><div class="products">
+<div class="card"><div class="pic">👗</div><div class="body"><span class="tag">NEW</span><h3>Floral Maxi Dress</h3><div class="price">₹1,799</div><div class="sizes">S · M · L · XL</div><a class="buy" href="#contact">Buy Now</a><a class="wa" href="https://wa.me/919000000000">WhatsApp Enquiry</a></div></div>
+<div class="card"><div class="pic">👗</div><div class="body"><span class="tag">TRENDING</span><h3>Embroidered Anarkali</h3><div class="price">₹2,299</div><div class="sizes">S · M · L · XL · XXL</div><a class="buy" href="#contact">Buy Now</a><a class="wa" href="https://wa.me/919000000000">WhatsApp Enquiry</a></div></div>
+<div class="card"><div class="pic">👚</div><div class="body"><span class="tag">POPULAR</span><h3>Cotton Straight Kurti</h3><div class="price">₹899</div><div class="sizes">S · M · L · XL</div><a class="buy" href="#contact">Buy Now</a><a class="wa" href="https://wa.me/919000000000">WhatsApp Enquiry</a></div></div>
+<div class="card"><div class="pic">👗</div><div class="body"><span class="tag">NEW</span><h3>Printed A-Line Dress</h3><div class="price">₹1,499</div><div class="sizes">S · M · L · XL</div><a class="buy" href="#contact">Buy Now</a><a class="wa" href="https://wa.me/919000000000">WhatsApp Enquiry</a></div></div>
+<div class="card"><div class="pic">👘</div><div class="body"><span class="tag">TRENDING</span><h3>Party Wear Lehenga</h3><div class="price">₹3,499</div><div class="sizes">S · M · L · XL</div><a class="buy" href="#contact">Buy Now</a><a class="wa" href="https://wa.me/919000000000">WhatsApp Enquiry</a></div></div>
+</div></section>
+
+<section class="offer"><div><h2>🎁 Special Offer</h2><p>Get 10% OFF on your first order. Demo code: <b>LUXE10</b></p></div><a class="btn" href="#trend">Shop Now</a></section>
+
+<footer id="contact"><div class="foot"><div><h3>LUXE THREADS</h3><p>Style that speaks. Premium-looking fashion at affordable prices.</p></div><div><h3>Quick Links</h3><p><a href="#home">Home</a><br><a href="#trend">Trending</a><br><a href="#cat">Dresses</a></p></div><div><h3>Customer Care</h3><p><a href="#">Shipping Policy</a><br><a href="#">Returns</a><br><a href="#">FAQs</a></p></div><div><h3>Contact</h3><p>📍 Hyderabad, India<br>📞 +91 90000 00000<br>💬 Demo WhatsApp</p><a class="btn" href="https://wa.me/919000000000">WhatsApp Us</a></div></div><div class="copy">© 2026 LUXE THREADS — Demo Website</div></footer>
+</body></html>
